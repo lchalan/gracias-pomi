@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--corgi-white);
+  box-shadow: var(--shadow-medium);
+}
+
+@media (max-width: 600px) {
+  .app {
+    max-width: 100%;
+    box-shadow: none;
+  }
+}
+
+.error-toast {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--tomato-red);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: var(--shadow-medium);
+  animation: slideUp 0.3s ease, fadeOut 0.3s ease 3s forwards;
+  z-index: 1000;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateX(-50%) translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

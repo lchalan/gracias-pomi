@@ -1,0 +1,37 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face background -->
+  <ellipse cx="50" cy="55" rx="38" ry="35" fill="#E8A857"/>
+  
+  <!-- White face marking -->
+  <ellipse cx="50" cy="62" rx="25" ry="28" fill="#FFFFFF"/>
+  
+  <!-- Left ear -->
+  <ellipse cx="20" cy="25" rx="15" ry="22" fill="#D2691E" transform="rotate(-15 20 25)"/>
+  <ellipse cx="20" cy="28" rx="10" ry="15" fill="#FFB6A3" transform="rotate(-15 20 28)"/>
+  
+  <!-- Right ear -->
+  <ellipse cx="80" cy="25" rx="15" ry="22" fill="#D2691E" transform="rotate(15 80 25)"/>
+  <ellipse cx="80" cy="28" rx="10" ry="15" fill="#FFB6A3" transform="rotate(15 80 28)"/>
+  
+  <!-- Left eye -->
+  <ellipse cx="35" cy="50" rx="8" ry="9" fill="#4A3728"/>
+  <ellipse cx="37" cy="48" rx="3" ry="3" fill="#FFFFFF"/>
+  
+  <!-- Right eye -->
+  <ellipse cx="65" cy="50" rx="8" ry="9" fill="#4A3728"/>
+  <ellipse cx="67" cy="48" rx="3" ry="3" fill="#FFFFFF"/>
+  
+  <!-- Nose -->
+  <ellipse cx="50" cy="68" rx="8" ry="6" fill="#4A3728"/>
+  <ellipse cx="52" cy="66" rx="2" ry="2" fill="#7D6B5D"/>
+  
+  <!-- Mouth -->
+  <path d="M 42 75 Q 50 82 58 75" stroke="#4A3728" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tongue -->
+  <ellipse cx="50" cy="80" rx="5" ry="4" fill="#E74C3C"/>
+  
+  <!-- Blush marks -->
+  <ellipse cx="25" cy="60" rx="6" ry="4" fill="#FFB6A3" opacity="0.6"/>
+  <ellipse cx="75" cy="60" rx="6" ry="4" fill="#FFB6A3" opacity="0.6"/>
+</svg>

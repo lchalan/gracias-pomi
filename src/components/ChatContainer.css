@@ -1,0 +1,13 @@
+.chat-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  background: linear-gradient(180deg, var(--corgi-cream) 0%, var(--corgi-white) 100%);
+}
+
+.messages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 100%;
+}
