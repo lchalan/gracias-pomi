@@ -20,6 +20,12 @@
   border-color: var(--corgi-light-orange);
 }
 
+.input-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
 .message-input {
   flex: 1;
   border: none;
